@@ -12,7 +12,7 @@ SESSION = environ.get('SESSION', 'Webavbot')
 API_ID = int(environ.get('API_ID', '21134445'))
 API_HASH = environ.get('API_HASH', '231c18ea7273824491d6bf05425ab74e')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
-BOT_USERNAME = environ.get("BOT_USERNAME", 'AV_F2L_BOT') # without @ 
+BOT_USERNAME = environ.get("BOT_USERNAME", '') # without @ 
 
 # Admins, Channels & Users
 BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-100')) # admin your channel in stream 
